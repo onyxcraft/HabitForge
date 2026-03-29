@@ -13,6 +13,12 @@
 		A1000007000000000000001 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000008000000000000001 /* Habit.swift */; };
 		A1000009000000000000001 /* HabitCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000010000000000000001 /* HabitCompletion.swift */; };
 		A1000011000000000000001 /* HabitGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012000000000000001 /* HabitGroup.swift */; };
+		C1000001000000000000001 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000008000000000000001 /* Habit.swift */; };
+		C1000002000000000000001 /* HabitCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000010000000000000001 /* HabitCompletion.swift */; };
+		C1000003000000000000001 /* HabitGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012000000000000001 /* HabitGroup.swift */; };
+		C1000004000000000000001 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000005000000000000001 /* Color+Hex.swift */; };
+		C1000006000000000000001 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000005000000000000001 /* Color+Hex.swift */; };
+		C1000005000000000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		A1000013000000000000001 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014000000000000001 /* HabitViewModel.swift */; };
 		A1000015000000000000001 /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000016000000000000001 /* HabitListView.swift */; };
 		A1000017000000000000001 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000018000000000000001 /* HabitDetailView.swift */; };
@@ -347,6 +353,7 @@
 				A1000033000000000000001 /* HabitGroupView.swift in Sources */,
 				A1000035000000000000001 /* SFSymbolPicker.swift in Sources */,
 				A1000037000000000000001 /* ColorPicker+Extension.swift in Sources */,
+				C1000006000000000000001 /* Color+Hex.swift in Sources */,
 				A1000039000000000000001 /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +365,10 @@
 				B1000005000000000000001 /* HabitForgeWidgetBundle.swift in Sources */,
 				B1000007000000000000001 /* HabitChecklistWidget.swift in Sources */,
 				B1000009000000000000001 /* StreakWidget.swift in Sources */,
+				C1000001000000000000001 /* Habit.swift in Sources */,
+				C1000002000000000000001 /* HabitCompletion.swift in Sources */,
+				C1000003000000000000001 /* HabitGroup.swift in Sources */,
+				C1000004000000000000001 /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
