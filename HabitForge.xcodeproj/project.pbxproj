@@ -18,7 +18,7 @@
 		C1000003000000000000001 /* HabitGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012000000000000001 /* HabitGroup.swift */; };
 		C1000004000000000000001 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000005000000000000001 /* Color+Hex.swift */; };
 		C1000006000000000000001 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000005000000000000001 /* Color+Hex.swift */; };
-		C1000005000000000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		C1000005000000000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitForge/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		A1000013000000000000001 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014000000000000001 /* HabitViewModel.swift */; };
 		A1000015000000000000001 /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000016000000000000001 /* HabitListView.swift */; };
 		A1000017000000000000001 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000018000000000000001 /* HabitDetailView.swift */; };
