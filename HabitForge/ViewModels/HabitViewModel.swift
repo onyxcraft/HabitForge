@@ -3,12 +3,11 @@ import SwiftData
 import SwiftUI
 
 @MainActor
-@Observable
-class HabitViewModel {
+class HabitViewModel: ObservableObject {
     var modelContext: ModelContext
-    var habits: [Habit] = []
-    var groups: [HabitGroup] = []
-    var selectedGroup: HabitGroup?
+    @Published var habits: [Habit] = []
+    @Published var groups: [HabitGroup] = []
+    @Published var selectedGroup: HabitGroup?
 
     init(modelContext: ModelContext) {
         self.modelContext = modelContext
